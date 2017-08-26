@@ -10,6 +10,8 @@ public class handScripts : MonoBehaviour {
 	public Transform sparkleSpawner;
 	public Transform endPos;
 	public Transform startPos;
+
+
 	Transform currentPos;
 
 	void OnTriggerEnter2D(Collider2D other){
@@ -25,6 +27,7 @@ public class handScripts : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		currentPos = endPos;
+		GetComponent<AudioSource> ().Play ();
 	}
 	
 	// Update is called once per frame
