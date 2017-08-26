@@ -6,15 +6,18 @@ public class handScripts : MonoBehaviour {
 
 	public float speed = 2;
 	public Transform hand;
+	public GameObject spark;
+	public Transform sparkleSpawner;
 	public Transform endPos;
 	public Transform startPos;
 	Transform currentPos;
 
 	void OnTriggerEnter2D(Collider2D other){
-	
+
 		if (other.tag == "projectile") {
+			Instantiate(spark, sparkleSpawner.transform.position, transform.rotation);
 			GameManager.instance.RemoveHand ();
-			Destroy (other.gameObject);
+			Destroy (other.transform.gameObject);
 			Destroy (this.gameObject);
 		}
 	}
