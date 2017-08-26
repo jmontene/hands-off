@@ -10,6 +10,7 @@ public class StatsRetriever : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		scoreText.text = GameManager.instance.GetScore ().ToString ();
+		Destroy (GameManager.instance.gameObject);
 	}
 	
 	// Update is called once per frame
