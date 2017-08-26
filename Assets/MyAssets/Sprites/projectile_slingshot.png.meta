@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: b425e0dea44952c47b8810c16662b321
 timeCreated: 1503763934
 licenseType: Free
@@ -10,13 +9,6 @@ TextureImporter:
     21300004: base_left
     21300006: base_right
     21300008: projectile
-=======
-guid: f093d31ab15ff4a8aaf6464b3b622ff3
-timeCreated: 1503758514
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
->>>>>>> a52413f66f76e4f71f7672f2551026c0da4b5c23
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -25,11 +17,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
-<<<<<<< HEAD
     mipMapsPreserveCoverage: 0
     alphaTestReferenceValue: 0.5
-=======
->>>>>>> a52413f66f76e4f71f7672f2551026c0da4b5c23
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -45,7 +34,6 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-<<<<<<< HEAD
     serializedVersion: 2
     filterMode: -1
     aniso: -1
@@ -57,16 +45,6 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-=======
-    filterMode: -1
-    aniso: -1
-    mipBias: -1
-    wrapMode: 1
-  nPOTScale: 0
-  lightmap: 0
-  compressionQuality: 50
-  spriteMode: 1
->>>>>>> a52413f66f76e4f71f7672f2551026c0da4b5c23
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -83,7 +61,6 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-<<<<<<< HEAD
     maxTextureSize: 1024
     textureFormat: -1
     textureCompression: 2
@@ -103,18 +80,12 @@ TextureImporter:
     maxTextureSize: 1024
     textureFormat: -1
     textureCompression: 2
-=======
-    maxTextureSize: 2048
-    textureFormat: -1
-    textureCompression: 1
->>>>>>> a52413f66f76e4f71f7672f2551026c0da4b5c23
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: holder
@@ -188,10 +159,6 @@ TextureImporter:
       tessellationDetail: 0
     outline: []
     physicsShape: []
-=======
-    sprites: []
-    outline: []
->>>>>>> a52413f66f76e4f71f7672f2551026c0da4b5c23
   spritePackingTag: 
   userData: 
   assetBundleName: 
