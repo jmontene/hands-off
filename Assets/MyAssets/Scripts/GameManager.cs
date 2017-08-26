@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
 	[Header("Stats")]
 	[SerializeField] float maxTolerance = 100;
 	public int damageMultiplier = 5;
+	public float healAmount = 20;
 	public string gameOverScene = "GameOver";
 
 	[Header("Tolerance Bar")]
@@ -78,6 +79,10 @@ public class GameManager : MonoBehaviour {
 	public void RemoveHand(){
 		currentHands -= 1;
 		score += 1;
+		currentTolerance += healAmount;
+		if (currentTolerance > maxTolerance) {
+			currentTolerance = maxTolerance;
+		}
 		scoreText.text = score.ToString ();
 	}
 
