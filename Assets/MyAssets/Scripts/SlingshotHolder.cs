@@ -80,9 +80,10 @@ public class SlingshotHolder : MonoBehaviour {
 	IEnumerator Shoot(){
 		Vector3 curMousePos = Input.mousePosition;
 		yield return new WaitForSeconds (waitTime);
-		if(Vector3.Distance(prevMousePos, curMousePos) >= mouseThreshold){
+		if (Vector3.Distance (prevMousePos, curMousePos) >= mouseThreshold) {
 			Projectile p = Instantiate (projectilePrefab, transform.position, Quaternion.identity).GetComponent<Projectile> ();
 			p.direction = rb.velocity.normalized;
+			p.GetComponent<SpriteRenderer> ().color = Random.ColorHSV (0f, 1f, 0f, 0.5f, 0f, 1f);
 		}
 	}
 
